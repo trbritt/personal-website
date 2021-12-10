@@ -2,7 +2,7 @@
 layout: about
 title: Tristan Britt
 permalink: /
-description:  PhD Candidate at the <a href="https://cpm.research.mcgill.ca">Centre for Physics of Materials</a>, McGill University.
+description:  PhD Student at the <a href="https://cpm.research.mcgill.ca">Centre for Physics of Materials</a>, McGill University.
 profile:
   align: right
   image: headshot.jpg
