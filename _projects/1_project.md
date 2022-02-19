@@ -5,7 +5,7 @@ description: Simulation of 'Model C' phase transition
 img: assets/img/1.jpg
 importance: 1
 autosize: true
-category: work
+category: fun
 ---
 
 The transition of a given solid material between regions of its phase diagram is a complicated phenomena to understand. Many attempts have been made over the years, with the first analytical description of transient behaviour of the system's order parameter $$\varphi$$ given by what is called 'Model A'. 
