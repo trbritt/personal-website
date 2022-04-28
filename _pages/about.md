@@ -20,14 +20,14 @@ social: true  # includes social icons at the bottom of the page
 
 Having worked extensively in the managerial teams of large scale organisations in the time before completing my undergraduate degree, I’ve developed team leadership skills from the beginning of my professional career. My industry research includes simulation and optimisation of custom radiofrequency (RF) waveguides for use in cryogenic axion dark matter experiments (ADMX) at the Korea Advanced Institute of Science and Technology (KAIST). In addition, I have also saw through the co-design and optimisation of the bending magnet currently in use in the LEReC beamline in the electron Relativistic Heavy Ion Collider (eRHIC) at Brookhaven National Lab (BNL). These projects have given me the experience and preparedness to handle high quality real-time research.
 
-My current focus is on examining the unique properties of 2D materials as revealed through momentum and time resolved ultrafast electron diffraction spectroscopy at McGill University, under the advisorship of Professor Bradley J Siwick, including both experiment and numerical simulations using time dependent perturbative density functional theory (TDPDFT). Experiments under progress include the observation of chiral phonons in monolayer molybdenum disulphide (MoS2), as well as the thermoelectric properties of tin selenide (SnSe) approaching the PNMA phase transition at 600K.
+My current focus is on examining the unique properties of 2D materials as revealed through momentum and time resolved ultrafast electron diffraction spectroscopy at McGill University, under the advisorship of Professor Bradley J Siwick, including both experiment and numerical simulations using time dependent perturbative density functional theory (TDPDFT). Experiments under progress include the observation of chiral phonons in monolayer molybdenum disulphide (MoS$$_2$$), as well as the thermoelectric properties of tin selenide (SnSe) approaching the PNMA phase transition at 600K.
 
 ---
 
 ### education
 
 ###### **McGill University** - Montreal, QC, CA | *Experimental Condensed Matter PhD* • In Progress 
-The thesis is titled 'Ultrafast phonon dynamics in 2d materials: comparison of electron scattering to *ab initio* calculations'. 
+The thesis is titled 'Ultrafast phonon dynamics at the 2D limit: a comparison of ultrafast electron scattering to *ab-initio* calculations'. 
 
 ###### **McGill University** - Montreal, QC, CA | *M.Sc.* • June 2019 - August 2021
 My master's degreed focused on instrument design and optimisation with high-performance computations. Firstly, simulations were done to verify the results of a time-resolved electron energy loss spectroscopy (trEELS) setup that is to be included in upcoming upgrades to the UEDS beamline at McGill. These simulations are written in `C`, and rely on OpenMP and MPI for parallel computation. The rest of the work focused on the design of a high performance TM$$_{010}$$ radiofrequency compression cavity, used to temporally focus the Coulomb expanded ultrafast electron bunch used in the scattering experiments. 
