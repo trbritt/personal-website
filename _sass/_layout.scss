@@ -1,7 +1,46 @@
 /******************************************************************************
  * Content
  ******************************************************************************/
+input[type=text], input[type=email] {
+  padding:10px;
+  width:50%;
+  height:10%;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  font-family:inherit;
+  font-size: inherit;
+}
 
+textarea {
+  padding:10px;
+  width:100%;
+  height:10%;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  font-family:inherit;
+  font-size: inherit;
+}
+button {
+
+  /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+
+  /* usual styles */
+  padding:10px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:100%;
+
+}
+
+.rounded-input {
+  padding:10px;
+  border-radius:10px;
+}
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);

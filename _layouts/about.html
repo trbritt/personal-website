@@ -41,21 +41,26 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
     <hr>
+    <br><br/>
+    <center><h5>Want to reach me? Fill out the form below, and I'll get back to you when I can.</h5></center>
+    <br><br/>
     <form
       action="https://formspree.io/f/mvolvgvy"
       method="POST"
     >
-      <label>
-        Your email:
-        <input type="email" name="email">
-      </label>
-      
-      <label>
-        Your message:
-        <textarea name="message"></textarea>
-      </label>
-      <!-- your other form fields go here -->
-      <button type="submit">Send</button>
+    <label for="name">Full Name: </label>
+    <input id="name" type="text" name="name" pattern="[A-Za-z]+" required />
+    <br /><br />
+
+    <label for="email">Email Address: </label>
+    <input id="email" type="email" name="email" required />
+    <br /><br />
+
+    <label for="message">Message: </label>
+    <textarea id="message" name="message" required></textarea>
+    <br /><br />
+
+    <button type="submit">Submit</button>
     </form>
     <hr>
     {% if page.social %}
