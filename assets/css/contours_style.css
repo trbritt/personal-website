@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+body, body * {
+    vertical-align:baseline;
+    border:0 none;
+    outline:0;
+    padding:0;
+    margin:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #030209;
+    overflow: hidden;
+}
+
+#fulllscreen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #030209;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fulllscreen canvas {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.loadingdiv {
+    font-family: 'Helvetica';
+    position: absolute;
+    object-fit: contain;
+    font-size: 2em;
+    color: #fff;
+}
+.loadingdiv img {
+    width: 300px;
+    height: 300px;
+}
