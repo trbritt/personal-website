@@ -53,7 +53,7 @@ I have proficiency in the following software packages, suites, or applications.
 A finite-element multiphysics solver. Among the many packages provided by this suite, I am proficient in primarily the radiofrequency (RF) electronics, Particle Tracing, Optimisation, Heat Transfer, and E&M solvers.
 
 ##### `OPERA`
-A finite-element electromagnetic field solver. This was used in the [published](/portfolio/publications/) work from BNL where a cryogenic bending magnet was designed. It is currently installed and in use at the electron cooling beamline of the electron Relativistic Heavy Ion Collider (eRHIC).
+A finite-element electromagnetic field solver. This was used in the [published](/publications/) work from BNL where a cryogenic bending magnet was designed. It is currently installed and in use at the electron cooling beamline of the electron Relativistic Heavy Ion Collider (eRHIC).
 
 ##### `ROXIE`
 A finite-element beam magnet field solver. Designed by CERN, this `C` suite of programmes allows for highly efficient computation of various multipole magnetic fields, with primary applications being the use of such complicated fields for beam manipulation inside syncotrons and other light or electron sources. This was used to compliment the `OPERA` simulations discussed above.
@@ -89,7 +89,7 @@ My programmes have utilised the following techniques/approaches.
 I am proficient in the following programming languages.
 
 ##### Fortran - `F77`, `F90`, modern Fortran (`F08`)
-The expensive nature of the computations done in density functional theory require an arrayoptimised language that is easily parallelisable. As such, I have become a programmer whose primary language is optimised Fortran. The standard density functional theory simulations done by the open-source suite `Quantum Espresso` are all in modern fortran. I have expanded this suite for my own custom calculations, the details of which are given in [this project](/portfolio/projects/2_project).
+The expensive nature of the computations done in density functional theory require an arrayoptimised language that is easily parallelisable. As such, I have become a programmer whose primary language is optimised Fortran. The standard density functional theory simulations done by the open-source suite `Quantum Espresso` are all in modern fortran. I have expanded this suite for my own custom calculations, the details of which are given in [this project](/projects/2_project).
 
 ##### `Python`
 Python is the primary lagnuage used to process the experimental scattering data collected for my work at McGill University. I have taught classes on Python at my time at McGill, ranging from basic language syntax to nonlinear curve fitting, to data visualisation, to basic machine learning. I am certified on Linkedin as proficient in `Python`.
@@ -101,7 +101,7 @@ My simulations of the magnets in my time at BNL, my electron bunch simulations i
 These two typesetting languages have been the default method through which I have written all my academic published work, my class assignments during my previous degrees, and this website.
 
 ##### Javascript
-I have recently aimed to be more creative with my coding, and to get a perspective on a programming language new and different to that I've developed during my PhD so far. Javascript has been my entrance into generative coding, and I will start posting more projects about it soon! (See my projects page [here](/portfolio/projects))
+I have recently aimed to be more creative with my coding, and to get a perspective on a programming language new and different to that I've developed during my PhD so far. Javascript has been my entrance into generative coding, and I will start posting more projects about it soon! (see my projects page [here](/projects/))
 
 ##### Matlab
 A great programming language to teach new students programming, I've used `MATLAB` a few times before in classes to introduce students to an interpreted language with rgeat flexibility and low barrier-of-entry.
