@@ -153,6 +153,10 @@ function setup(){
     let ystart = (_height-posy.max()-posy.min())/2
     // console.log(unique_contour_values);
     let ideal_density = 3.2*(12/unique_contour_values.length); //test case emma: largest contour is ~530 pixels, so we want ~2000points, giving density of 3.7 point/pixel
+    if (iOS()){
+        console.log('Detected iOS; scaling density to fit screen.');
+        ideal_density /= 2;
+    }
     n_rendered_points = [];
     for (idn=0;idn<unique_contour_values.length;idn++){
         console.log('Generating contour ' + idn + '/' + unique_contour_values.length);
@@ -338,4 +342,17 @@ function exportPNG() {
 }
 function keyReleased() {
     if (key == 's' || key == 'S' || key == 'e' || key == 'E') exportPNG();
+}
+
+function iOS() {
+  return [
+    'iPad Simulator',
+    'iPhone Simulator',
+    'iPod Simulator',
+    'iPad',
+    'iPhone',
+    'iPod'
+  ].includes(navigator.platform)
+  // iPad on iOS 13 detection
+  || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
 }
