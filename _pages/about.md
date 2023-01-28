@@ -100,7 +100,10 @@ My simulations of the magnets in my time at BNL, my electron bunch simulations i
 ##### Markdown and $$\LaTeX$$
 These two typesetting languages have been the default method through which I have written all my academic published work, my class assignments during my previous degrees, and this website.
 
-##### `MATLAB`
-##### `Mathematica`
-##### `Ruby`
+##### Javascript
+I have recently aimed to be more creative with my coding, and to get a perspective on a programming language new and different to that I've developed during my PhD so far. Javascript has been my entrance into generative coding, and I will start posting more projects about it soon! (See my projects page [here](/portfolio/projects))
+
+##### Matlab
+A great programming language to teach new students programming, I've used `MATLAB` a few times before in classes to introduce students to an interpreted language with rgeat flexibility and low barrier-of-entry.
+
 ---
