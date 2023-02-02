@@ -7,3 +7,14 @@ redirect: true
 ---
 
 <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="{{ site.baseurl | prepend: site.url }}/">here</a>.</p>
+
+<canvas id="canvas" width="500" height="500"></canvas>
+
+<script src="https://unpkg.com/@rive-app/canvas@1.0.98"></script>
+<script>
+    new rive.Rive({
+    src: "/assets/img/404.riv",
+    canvas: document.getElementById("canvas"),
+    autoplay: true
+    });
+</script>
